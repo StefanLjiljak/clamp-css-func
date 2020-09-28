@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: clamp(0.5em, 5vw, 8em);
+}
+
+h1 {
+  font-size: clamp(40px, 5vw, 70px);
+}
+
+p {
+  font-size: clamp(1em, 2vw, 2em);
+}
